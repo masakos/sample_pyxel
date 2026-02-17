@@ -122,5 +122,4 @@ class App:
         for enemy in self.enemies:
             enemy.draw()
 
-
 App()

@@ -16,4 +16,13 @@ https://www.tento-net.com/learning-materials/python/app/pyxel/pyxel-03/
 
 
 
- 
+## htmlファイルに変換する
+
+pyxel package . hanabi.py 
+pyxel app2html sample_hanabi.pyxapp
+
+## Pyxel で作った HTMLファイルは GitHub Pages（github.io）で公開する
+- HTMLファイ　ルを用意する
+- GitHubにリポジトリを作る
+- ファイルをアップロードする
+- GitHub Pagesを有効化する
