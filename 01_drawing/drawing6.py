@@ -282,5 +282,4 @@ class App:
             pyxel.text(60, 64, "GAME OVER", 8)
             pyxel.text(45, 74, "PRESS R TO RESTART", 8)
 
-
 App()

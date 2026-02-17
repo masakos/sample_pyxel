@@ -52,3 +52,9 @@ pyxel.run(self.update, self.draw) は 「ゲームを動かし続けるスイッ
 だから動いて見えます。
 
 pyxel.run() は 「update と draw を何度も何度も実行し続ける仕組み」
+
+## Pyxel には ゲームを配布できる仕組みがあります。
+- 方法①：Webブラウザで遊べるようにする（いちばん簡単）
+Pyxelは HTML（Web用）に書き出しできます
+
+

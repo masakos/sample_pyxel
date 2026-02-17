@@ -9,7 +9,7 @@ GROUND_Y = 96
 class App:
     def __init__(self):
         pyxel.init(WIDTH, HEIGHT)
-        pyxel.load("my_resource.pyxres")
+        pyxel.load("sample.pyxres")
 
         self.px = 40
         self.py = GROUND_Y
