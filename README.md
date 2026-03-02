@@ -4,7 +4,7 @@
 https://www.tento-net.com/learning-materials/python/app/pyxel/pyxel-03/
 
 
-- ３つのゲームでどれか改造してもらう
+## サンプル
 - 花火
     - スピードを変える
 - シューティングゲーム
@@ -15,14 +15,17 @@ https://www.tento-net.com/learning-materials/python/app/pyxel/pyxel-03/
     - ビットマップを変える
 
 
+## run
+```python
+python -m venv .venv
+.venv\Scripts\activate.bat
+pip install pyxel
+python  pythonファイル名
+```
 
 ## htmlファイルに変換する
-
+```bash
 pyxel package . hanabi.py 
 pyxel app2html sample_hanabi.pyxapp
+```
 
-## Pyxel で作った HTMLファイルは GitHub Pages（github.io）で公開する
-- HTMLファイ　ルを用意する
-- GitHubにリポジトリを作る
-- ファイルをアップロードする
-- GitHub Pagesを有効化する
