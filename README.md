@@ -15,6 +15,13 @@ pip install pyxel
 python  pythonファイル名
 ```
 
+## Pyxel Editorの起動
+Pyxel アプリケーションで使用する画像やサウンドを作成する
+
+```bash
+pyxel edit my_resource.pyxre(Pyxelリソースファイル)
+```
+
 ## htmlファイルに変換する
 ```bash
 pyxel package . hanabi.py 
