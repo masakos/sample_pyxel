@@ -56,4 +56,4 @@ pyxel.text(5, 5, f"SCORE: {self.score}", 7)
 
 
 
-
+![サンプルイメージ](./image/game-image.png)
