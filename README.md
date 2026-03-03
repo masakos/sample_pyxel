@@ -1,11 +1,12 @@
 # sample_pyxel
 
-
+[Pyxel](https://github.com/kitao/pyxel)を使ったミニゲーム集です。
+ゲーム開発の基礎（描画・入力・当たり判定・シーン管理など）を学ぶためのサンプルをまとめています。
 
 ## run
 ```python
 python -m venv .venv
-pip install 
+pip install pyxel 
 .venv\Scripts\activate.bat
 
 pip install pyxel
@@ -18,16 +19,3 @@ pyxel package . hanabi.py
 pyxel app2html sample_hanabi.pyxapp
 ```
 
-## サンプル
-- 花火
-    - スピードを変える
-- シューティングゲーム
-    - スピードを変える
-    - ビットマップを変える
-- マリオ風ゲーム
-    - 敵のスピードを変える　
-    - ビットマップを変える
-
-
-## 参考
-https://www.tento-net.com/learning-materials/python/app/pyxel/pyxel-03/
